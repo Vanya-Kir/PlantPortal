@@ -6,25 +6,33 @@ namespace PlantPortal.Controllers
 {
     public class PlantReferenceBookController : Controller
     {
-        private readonly IPlantRepository plantRepository;
+        private readonly PlantService plantService;
 
-        public PlantReferenceBookController(IPlantRepository plantRepository)
+        public PlantReferenceBookController(PlantService plantService)
         {
-            this.plantRepository = plantRepository;
+            this.plantService = plantService;
         }
 
         // GET: PlantReferenceBookController
-        public ActionResult Index(string query)
+        public ActionResult Index()
         {
-            var plants = plantRepository.GetAllByName(query);
-            return View(plants);
+            var plants = plantService.GetAllPlant();
+            return View("Index", plants);
+        }        
+        
+        public ActionResult Search(string name)
+        {
+            var plants = plantService.GetAllPlantByName(name);
+            return View("Index", plants);
         }
 
         // GET: PlantReferenceBookController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(long id)
         {
-            return View();
+            var plant = plantService.GetPlantById(id);
+            return View(plant);
         }
+
 
         // GET: PlantReferenceBookController/Create
         public ActionResult Create()

@@ -8,10 +8,11 @@ namespace Plant
 {
     public interface IPlantRepository
     {
+
         List<Plant> GetAll();
 
         List<Plant> GetAllByName(string name);
 
-
+        Plant GetById(long id);
     }
 }

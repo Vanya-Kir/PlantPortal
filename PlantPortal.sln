@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plant.PostgreSQL", "infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantPortal", "presentation\PlantPortal\PlantPortal.csproj", "{70A7DC0A-07BB-4F80-B706-F0ADA07D367D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plant.Ml", "infrastructure\Plant.Ml\Plant.Ml.csproj", "{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{70A7DC0A-07BB-4F80-B706-F0ADA07D367D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70A7DC0A-07BB-4F80-B706-F0ADA07D367D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70A7DC0A-07BB-4F80-B706-F0ADA07D367D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
