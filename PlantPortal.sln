@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plant.PostgreSQL", "infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantPortal", "presentation\PlantPortal\PlantPortal.csproj", "{70A7DC0A-07BB-4F80-B706-F0ADA07D367D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plant.Ml", "infrastructure\Plant.Ml\Plant.Ml.csproj", "{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plant.Ml", "infrastructure\Plant.Ml\Plant.Ml.csproj", "{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Device", "Device\Device.csproj", "{D8B09779-033B-4CE0-AA6C-A16D3422813A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Device.PostgreSQL", "Device.PostgreSQL\Device.PostgreSQL.csproj", "{1707A40E-F8DE-47B7-9DBE-ECDEDF3EFC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device.Data", "Device.Data\Device.Data.csproj", "{6B9213E3-7105-4576-B1F6-AB3EEC9486AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE77C7B-D725-407C-A1D1-BF61A4C7E56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B09779-033B-4CE0-AA6C-A16D3422813A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B09779-033B-4CE0-AA6C-A16D3422813A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B09779-033B-4CE0-AA6C-A16D3422813A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B09779-033B-4CE0-AA6C-A16D3422813A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1707A40E-F8DE-47B7-9DBE-ECDEDF3EFC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1707A40E-F8DE-47B7-9DBE-ECDEDF3EFC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1707A40E-F8DE-47B7-9DBE-ECDEDF3EFC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1707A40E-F8DE-47B7-9DBE-ECDEDF3EFC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9213E3-7105-4576-B1F6-AB3EEC9486AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9213E3-7105-4576-B1F6-AB3EEC9486AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9213E3-7105-4576-B1F6-AB3EEC9486AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9213E3-7105-4576-B1F6-AB3EEC9486AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

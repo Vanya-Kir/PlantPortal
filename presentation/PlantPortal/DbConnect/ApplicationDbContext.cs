@@ -1,20 +1,22 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Device;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Plant;
 using PlantPortal.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PlantPortal.DbConnect
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Temperature> Temperature { get; set; }
+        public DbSet<Humidity> Humidity { get; set; }
+        public DbSet<Disease> Disease { get; set; }
+        public DbSet<Plant.Plant> Plant { get; set; }
+        public DbSet<Settings> Settings { get; set; }
+
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
-
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

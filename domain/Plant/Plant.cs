@@ -23,7 +23,7 @@
         /// <summary>
         /// Погодные условия для выращивания
         /// </summary>
-        public List<Weather>? Weather { get; set; }
+        //public List<Weather>? Weather { get; set; }
 
         public List<string>? Images { get; set; }
 

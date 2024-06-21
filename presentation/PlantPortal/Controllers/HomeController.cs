@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PlantPortal.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace PlantPortal.Controllers
 {
@@ -15,6 +16,7 @@ namespace PlantPortal.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 

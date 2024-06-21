@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Device.Data\Device.Data.csproj" />
+    <ProjectReference Include="..\..\Device.PostgreSQL\Device.PostgreSQL.csproj" />
+    <ProjectReference Include="..\..\Device\Device.csproj" />
     <ProjectReference Include="..\..\domain\Plant\Plant.csproj" />
     <ProjectReference Include="..\..\infrastructure\Plant.Ml\Plant.Ml.csproj" />
     <ProjectReference Include="..\..\infrastructure\Plant.PostgreSQL\Plant.PostgreSQL.csproj" />
